@@ -1,0 +1,34 @@
+# Virtual environment
+venv/
+env/
+
+# Database
+*.sqlite3
+
+# Static and Media files
+staticfiles/
+media/
+
+# Secrets and sensitive information
+*.secret
+*.key
+*.pem
+*.env
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Compiled code and cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+
+# Local settings
+settings_local.py
