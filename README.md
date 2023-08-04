@@ -30,5 +30,6 @@ python3 manage.py runserver
 
 The tutorial
 * [MDN Django tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/development_environment)
-* [Documentantion](https://docs.djangoproject.com/en/4.2/intro/overview/)
+* [Source code for the tutorial](https://github.com/mdn/django-locallibrary-tutorial)
+* [Django Documentantion](https://docs.djangoproject.com/en/4.2/intro/overview/)
 
