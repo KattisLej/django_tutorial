@@ -1,5 +1,6 @@
 # Django tutorial 
 Following a Django MDN tutorial to learn more about DJango.
+![Django admin](locallibrary/images/Django_tutorial.png "Django admin")
 
 ## Description
 
@@ -25,6 +26,18 @@ workon <virtual_environment_name>
 * Start the server: 
 ```
 python3 manage.py runserver
+```
+
+## Adding data to db
+
+Use script add_data.py and run it as follows:
+```
+python add_data.py
+```
+
+And to add book instances:
+```
+python add_book_instances.py
 ```
 
 ## Acknowledgments
