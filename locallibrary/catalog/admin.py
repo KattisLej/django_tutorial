@@ -4,9 +4,16 @@ from .models import Author, Genre, Book, BookInstance
 
 admin.site.register(Genre)
 
+class BookInline(admin.TabularInline):
+    model= Book
+
+    def get_extra(self, request, obj=None, **kwargs):
+        return 0
+
 class AuthorAdmin(admin.ModelAdmin):
     list_display = ('last_name', 'first_name', 'date_of_birth', 'date_of_death')
     fields = ['first_name', 'last_name', ('date_of_birth', 'date_of_death')]
+    inlines = [BookInline]
 
 
 # Register the admin class with the associated model
@@ -27,7 +34,7 @@ class BookAdmin(admin.ModelAdmin):
 # Register the Admin classes for BookInstance using the decorator
 @admin.register(BookInstance)
 class BookInstanceAdmin(admin.ModelAdmin):
-    list_display = ('status', 'due_back')
+    list_display = ('book', 'status', 'due_back', 'id')
     list_filter = ('status', 'due_back')
     fieldsets = (
         (None, {
