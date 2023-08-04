@@ -1,6 +1,7 @@
 # Django tutorial 
 Following a Django MDN tutorial to learn more about DJango.
 ![Django admin](locallibrary/images/Django_tutorial.png "Django admin")
+![Django site](locallibrary/images/Django_tutorial_site.png "Django site")
 
 ## Description
 
