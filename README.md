@@ -4,9 +4,10 @@ Following a Django MDN tutorial to learn more about DJango.
 ## Description
 
 The purpose of this project is for learning:
-* Learning Django
+* Learning Django in general
 * python
-* virtual environments
+* Using virtual environments
+* Creating a web application with Django
 
 
 ### Dependencies
