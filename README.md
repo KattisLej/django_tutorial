@@ -41,6 +41,11 @@ And to add book instances:
 python add_book_instances.py
 ```
 
+Borrow some books, which will be assigned to two users, so the username has to be in the db.
+```
+python loan_books_script.py
+```
+
 ## Acknowledgments
 
 The tutorial
